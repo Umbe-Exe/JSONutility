@@ -7,7 +7,7 @@
 	#define DLLEXPORT
 #endif
 
-class Json {
+class DLLEXPORT Json {
 
 public:
 	Json();
