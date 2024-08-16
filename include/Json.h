@@ -2,12 +2,12 @@
 #include <string>
 
 #ifndef JSON_STATIC
-	#define DLLEXPORT __declspec(dllexport)
+	#define DLLIMPORT __declspec(dllimport)
 #else
-	#define DLLEXPORT
+	#define DLLIMPORT
 #endif
 
-class DLLEXPORT Json {
+class DLLIMPORT Json {
 
 public:
 	Json();
